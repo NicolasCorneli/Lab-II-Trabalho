@@ -14,7 +14,7 @@ def search_product(my_dict):
         print("valor:" , my_dict[name_product]["value"])
         print("estoque:", my_dict[name_product]["amount"])
         print("categoria:", my_dict[name_product]["category"])
-        return True
+     
     else:
         print("o ", name_product, "nao foi buscado")
-        return False
+        
